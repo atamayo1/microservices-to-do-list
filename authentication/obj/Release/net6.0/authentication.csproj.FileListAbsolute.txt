@@ -1,0 +1,6 @@
+/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/authentication/obj/Release/net6.0/authentication.csproj.AssemblyReference.cache
+/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/authentication/obj/Release/net6.0/authentication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/authentication/obj/Release/net6.0/authentication.AssemblyInfoInputs.cache
+/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/authentication/obj/Release/net6.0/authentication.AssemblyInfo.cs
+/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/authentication/obj/Release/net6.0/authentication.csproj.CoreCompileInputs.cache
+/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/authentication/obj/Release/net6.0/authentication.MvcApplicationPartsAssemblyInfo.cache
