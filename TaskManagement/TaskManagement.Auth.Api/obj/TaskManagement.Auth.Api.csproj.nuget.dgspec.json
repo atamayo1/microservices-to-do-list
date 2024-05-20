@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Api/TaskManagement.Auth.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Api/TaskManagement.Auth.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Api/TaskManagement.Auth.Api.csproj",
+        "projectName": "TaskManagement.Auth.Api",
+        "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Api/TaskManagement.Auth.Api.csproj",
+        "packagesPath": "/Users/anthonytamayoortega/.nuget/packages/",
+        "outputPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anthonytamayoortega/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Business/TaskManagement.Auth.Business.csproj": {
+                "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Business/TaskManagement.Auth.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Business/TaskManagement.Auth.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Business/TaskManagement.Auth.Business.csproj",
+        "projectName": "TaskManagement.Auth.Business",
+        "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Business/TaskManagement.Auth.Business.csproj",
+        "packagesPath": "/Users/anthonytamayoortega/.nuget/packages/",
+        "outputPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anthonytamayoortega/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj": {
+                "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj"
+              },
+              "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Infrastructure/TaskManagement.Auth.Infrastructure.csproj": {
+                "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Infrastructure/TaskManagement.Auth.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj",
+        "projectName": "TaskManagement.Auth.Domain",
+        "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj",
+        "packagesPath": "/Users/anthonytamayoortega/.nuget/packages/",
+        "outputPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anthonytamayoortega/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Infrastructure/TaskManagement.Auth.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Infrastructure/TaskManagement.Auth.Infrastructure.csproj",
+        "projectName": "TaskManagement.Auth.Infrastructure",
+        "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Infrastructure/TaskManagement.Auth.Infrastructure.csproj",
+        "packagesPath": "/Users/anthonytamayoortega/.nuget/packages/",
+        "outputPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anthonytamayoortega/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj": {
+                "projectPath": "/Users/anthonytamayoortega/Documents/BackendProjects/NET/microservices-to-do-list/TaskManagement/TaskManagement.Auth.Domain/TaskManagement.Auth.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

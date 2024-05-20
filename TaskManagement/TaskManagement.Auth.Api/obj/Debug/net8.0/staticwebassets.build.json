@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oYplDBxpdbu3c/Bj+vEo58NiJA6jQEdm5bQakjZ75h0=",
+  "Source": "TaskManagement.Auth.Api",
+  "BasePath": "_content/TaskManagement.Auth.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
